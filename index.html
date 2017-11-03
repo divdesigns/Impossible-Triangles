@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Impossibe Triangles">
+<meta name="author" content="Divya Ravi Shanker">
+<title>Impossible-Triangles</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap-css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/mystyle.css">
+
+<link href="css/scrolling-nav.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/animate.css" />
+<!-- Adding Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+<!-- Calling Jquery from CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+<div class="container">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo.png" alt="Impossible Triangles"></a>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#3dprinting">3D Printing</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#upload">Upload Designs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#services">Services</a>
+</li>
+<li class="nav-item">
+<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#" data-toggle="modal" data-target="#loginModal">&nbsp;&nbsp;&nbsp;<i class="fa fa-user" aria-hidden="true"></i> Login</a>
+<div class="modal" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="loginModalLabel">User Login</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<form>
+<div class="form-group">
+<label for="user-name" class="col-form-label">User Name:</label>
+<input type="text" class="form-control" id="user-name">
+</div>
+<div class="form-group">
+<label for="user-password" class="col-form-label">Password:</label>
+<input type="text" class="form-control" id="user-password">
+</div>
+</form>
+</div>
+<div class="modal-footer">
+
+<button type="button" class="btn btn-primary">Login</button>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- Section 1 -->
+<div class="container-fluid text-white">
+<section class="printing-container1"  id="home">
+<div class="row">
+<div class="col-sm-6 col-lg-8">
+<div id="ani1">
+<h3>UP Box</h3>
+<h1>Australia's number one selling Desktop 3D Printer</h1><br>
+<p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).</p>
+<p>Only when the button is clicked, the navigation bar will be displayed.</p>
+<button type="button" class="btn btn-secondary">Enquire Today!</button>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div id="ani2">
+<img src="img/ban1.png" class="img-fluid" alt="3d printing">
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Section 2 -->
+<section id="3dprinting" class="bg-light1">
+<div class="container-fluid text-center px-5">
+<h1 class="text-uppercase ">3D Printing</h1>
+<p class="font-italic">How Impossible Triangle Works</p>
+<div class="row text-center">
+<div class="col-sm-4"><i class="fa fa-desktop rounded-circle p-4 m-4 lg-icons" aria-hidden="true"></i><br><strong>Design your product</strong><br>
+<p>Search from over 200,000 free designs. There is something for everyone to 3D print.</p>
+</div>
+<div class="col-sm-4"><i class="fa fa-cloud-upload rounded-circle p-4 m-4 lg-icons" aria-hidden="true"></i><br><strong>Upload to Impossible Triangle</strong><br>
+<p>Get instant quotes and enjoy the local support. Very quick turnarounds with expert checks.</p>
+</div>
+<div class="col-sm-4"><i class="fa fa-paper-plane rounded-circle p-4 m-4 lg-icons" aria-hidden="true"></i><br><strong>We’ll make it for you</strong><br>
+<p>Upload your design using our portal and we will have it printed for you.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3 -->
+<section id="upload" class="text-center">
+<div class="container-fluid text-center px-5">
+<h1 class="text-uppercase ">Upload Your Designs</h1>
+<br>
+<div>
+<ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="true">Upload</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">Choose Your Material</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="third-tab" data-toggle="tab" href="#third" role="tab" aria-controls="third" aria-selected="false">Your Details</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="fourth-tab" data-toggle="tab" href="#fourth" role="tab" aria-controls="fourth" aria-selected="false">Billing Details</a>
+</li>
+</ul>
+<div class="tab-content" id="myTabContent">
+<div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+<form>
+<div class="form-group">
+<label for="exampleFormControlFile1"><i class="fa fa-upload fa-5x" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="Upload file from computer"></i></label>
+<input type="file" class="form-control-file" id="exampleFormControlFile1">
+<p class="subline">Filetypes: DAE, OBJ, STL, X3D, X3DB, X3DV, WRL</p>
+</div>
+</form>
+</div>
+<div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+<div class="container">
+<table class="table table-striped text-left table-responsive">
+<thead>
+<tr>
+<th scope="col"  data-toggle="tooltip" data-placement="top" title="Choose your material">Material</th>
+<th scope="col"  data-toggle="tooltip" data-placement="top" title="Want it polished or unpolished">Color/Finish</th>
+<th scope="col"  data-toggle="tooltip" data-placement="top" title="Price displayed is per cm³">Price per cm³</th>
+<th scope="col"  data-toggle="tooltip" data-placement="top" title="How much quantity do you need?">Quantity</th>
+<th scope="col"  data-toggle="tooltip" data-placement="top" title="Press button to buy">Add to cart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td scope="row">Gold</td>
+<td><select class="custom-select" data-toggle="tooltip" data-placement="bottom" title="Press button to choose finish">
+<option selected>Select finish</option>
+<option value="1">Polished</option>
+<option value="2">Unpolished</option>
+</select></td>
+<td><b>Polished</b>
+<br>
+$600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+<br>
+<b>Unpolished</b>
+<br>
+$450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+</td>
+<td><select class="custom-select"  data-toggle="tooltip" data-placement="bottom" title="Press button to choose quantity">
+<option selected>Select quantity</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select></td>
+<td><button type="button" class="btn btn-secondary ">Add to cart</button></td>
+</tr>
+<tr>
+<td scope="row">Silver</td>
+<td><select class="custom-select"  data-toggle="tooltip" data-placement="bottom" title="Press button to choose finish">
+<option selected>Select finish</option>
+<option value="1">Polished</option>
+<option value="2">Unpolished</option>
+</select></td>
+<td><b>Polished</b>
+<br>
+$600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+<br>
+<b>Unpolished</b>
+<br>
+$450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+</td>
+<td><select class="custom-select"  data-toggle="tooltip" data-placement="bottom" title="Press button to choose quantity">
+<option selected>Select quantity</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select></td>
+<td><button type="button" class="btn btn-secondary ">Add to cart</button></td>
+</tr>
+<tr>
+<td scope="row">Bronze</td>
+<td><select class="custom-select"  data-toggle="tooltip" data-placement="bottom" title="Press button to choose finish">
+<option selected>Select finish</option>
+<option value="1">Polished</option>
+<option value="2">Unpolished</option>
+</select></td>
+<td><b>Polished</b>
+<br>
+$600.00<small class="text-muted">&nbsp;+$50.00 handling fee</small>
+<br>
+<b>Unpolished</b>
+<br>
+$450.00<small class="text-muted">&nbsp;+$45.00 handling fee</small>
+</td>
+<td><select class="custom-select"  data-toggle="tooltip" data-placement="bottom" title="Press button to choose quantity">
+<option selected>Select quantity</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select></td>
+<td><button type="button" class="btn btn-secondary ">Add to cart</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+<form class="container" id="needs-validation" novalidate>
+<div class="row">
+<div class="col-md-6 mb-3">
+<label for="validationCustom01">First name</label>
+<input type="text" class="form-control" id="validationCustom01" placeholder="Eg: First name" required  data-toggle="tooltip" data-placement="bottom" title="Enter your First Name">
+</div>
+<div class="col-md-6 mb-3">
+<label for="validationCustom02">Last name</label>
+<input type="text" class="form-control" id="validationCustom02" placeholder="Eg: Last name" required data-toggle="tooltip" data-placement="bottom" title="Enter your Last Name">
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mb-3">
+<label for="validationCustom06">Address</label>
+<input type="text" class="form-control" id="validationCustom06" placeholder="Eg: 123 Avenue" required data-toggle="tooltip" data-placement="bottom" title="Enter your Address">
+</div>
+<div class="col-md-6 mb-3">
+<label for="validationCustom07">Phone No</label>
+<input type="tel" class="form-control" id="validationCustom07" placeholder="Eg: +61 403567898" required  data-toggle="tooltip" data-placement="bottom" title="Enter your Phone No">
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 mb-3">
+<label for="validationCustom03">City</label>
+<input type="text" class="form-control" id="validationCustom03" placeholder="Eg: Bonbeach" required data-toggle="tooltip" data-placement="bottom" title="Enter your City">
+<div class="invalid-feedback">
+Please provide a valid city.
+</div>
+</div>
+<div class="col-md-3 mb-3">
+<label for="validationCustom04">State</label>
+<input type="text" class="form-control" id="validationCustom04" placeholder="Eg: VIC" required  data-toggle="tooltip" data-placement="bottom" title="Enter your State">
+<div class="invalid-feedback">
+Please provide a valid state.
+</div>
+</div>
+<div class="col-md-3 mb-3">
+<label for="validationCustom05">Zip</label>
+<input type="text" class="form-control" id="validationCustom05" placeholder="Eg: 3196" required  data-toggle="tooltip" data-placement="bottom" title="Enter your Zipcode">
+<div class="invalid-feedback">
+Please provide a valid zip.
+</div>
+</div>
+</div>
+<br>
+<button class="btn btn-secondary" type="submit">Save Details</button>
+</form>
+</div>
+<div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
+<div class="container-fluid card text-center">
+<!-- CREDIT CARD FORM STARTS HERE -->
+<div>
+<div class="row justify-content-center">
+<h3>Payment Details</h3>
+<div class="display">
+<img class="img-fluid" src="http://i76.imgup.net/accepted_c22e0.png">
+</div>
+</div>
+<br>
+<div>
+<form role="form" id="payment-form"  method="POST" action="javascript:void(0);">
+<div class="row  justify-content-center">
+<div class="col-md-4">
+<div class="form-group">
+<label for="cardNumber">CARD NUMBER</label>
+<div class="input-group">
+<input
+type="tel"
+class="form-control"
+name="cardNumber"
+placeholder="Valid Card Number"
+autocomplete="cc-number"
+required data-toggle="tooltip" data-placement="left" title="Enter the number shown on the card"
+/>
+<span class="input-group-addon"><i class="fa fa-credit-card"></i></span>
+</div>
+</div>
+</div>
+</div>
+<div class="row  justify-content-center">
+<div class="col-xs-2 col-md-2">
+<div class="form-group">
+<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+<input
+type="tel"
+class="form-control"
+name="cardExpiry"
+placeholder="MM / YY"
+autocomplete="cc-exp"
+required
+data-toggle="tooltip" data-placement="left" title="Enter the Expiry date shown on your card"
+/>
+</div>
+</div>
+<div class="col-xs-2 col-md-2">
+<div class="form-group">
+<label for="cardCVC">CV CODE</label>
+<input
+type="tel"
+class="form-control"
+name="cardCVC"
+placeholder="CVC"
+autocomplete="cc-csc"
+required   data-toggle="tooltip" data-placement="right" title="Enter the CVV number shown on back of your card"
+/>
+</div>
+</div>
+</div>
+<div class="row  justify-content-center">
+<div class="col-md-4">
+<div class="form-group">
+<label for="couponCode">COUPON CODE</label>
+<input type="text" class="form-control" name="couponCode"  data-toggle="tooltip" data-placement="left" title="Enter coupon code if any"/>
+</div>
+</div>
+</div>
+<div class="row justify-content-center">
+<div class="col-lg-4">
+<button class="subscribe btn btn-secondary btn-lg" type="button"   data-toggle="tooltip" data-placement="left" title="press to process your payment">Process Payment</button>
+</div>
+</div>
+<div class="row justify-content-center" style="display:none;">
+<div class="col-md-4">
+<p class="payment-errors"></p>
+</div>
+</div>
+</form>
+</div>
+</div>
+<!-- CREDIT CARD FORM ENDS HERE -->
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4 -->
+<section id="services">
+<div class="container-fluid text-center px-5">
+<h1 class="text-uppercase">Services</h1>
+<p class="font-italic">Aliquam auctor sollicitudin odio sed varius!</p>
+<div class="row">
+<div class="col-sm-7">
+<div class="left">
+<h1>Materials</h1><br>
+<p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner. </p>
+<p>Only when the button is clicked, the navigation bar will be displayed.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="right"><img src="img/sec2.png" class="image-fluid " alt="equipment 1"></div>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-sm-5">
+<div class="left"><img src="img/sec3.png" class="image-fluid " alt="equipment 2"></div>
+</div>
+<div class="col-sm-7">
+<div class="right">
+<h1>Quality</h1><br>
+<p>In this example, the navigation bar is hidden on small screens and replaced by a button. </p>
+<p>Only when the button is clicked, the navigation bar will be displayed.
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+</div>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="col-sm-7">
+<div class="left">
+<h1>Effecient</h1><br>
+<p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner. </p>
+<p>Only when the button is clicked, the navigation bar will be displayed.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="right"><img src="img/services/eq1.jpg" class="image-fluid " alt="service equipment"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5 -->
+<section id="contact">
+<div class="container-fluid text-center px-4">
+<h1 class="text-uppercase">Contact</h1>
+<p class="font-italic">Now everything is a breeze!</p>
+<div class="container p-3">
+<form>
+<div class="row mt-4">
+<div class="col-sm-6 left">
+<div class="form-group">
+<label for="name" class="sr-only">Name</label>
+<input type="name" class="form-control form-control-lg" id="name" placeholder="Your Name" required>
+</div>
+<div class="form-group">
+<label for="email" class="sr-only">Email</label>
+<input type="email" class="form-control form-control-lg" id="email" placeholder="Your Email"required>
+</div>
+<div class="form-group">
+<label for="phone" class="sr-only">Phone</label>
+<input type="tel" class="form-control form-control-lg" id="phone" placeholder="Your Phone"required>
+</div>
+</div>
+<div class="col-sm-6 right">
+<div class="form-group">
+<label for="message" class="sr-only">Example textarea</label>
+<textarea class="form-control form-control-lg" id="message" rows="3" placeholder="Your Message"></textarea>
+</div>
+</div>
+</div>
+<p class="pad">
+<button type="submit" class="btn btn-secondary btn-lg text-uppercase">Upload your design</button></p>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class=" bg-dark text-center">
+<div class="container">
+<div class="row text-light">
+<div class="col-sm-4 p-3"><small>Copyright © Impossible Triangles 2017</small></div>
+<div class="col-sm-4">
+<i class="fa fa-facebook rounded-circle p-3 bg-social" aria-hidden="true"></i>
+<i class="fa fa-snapchat-ghost rounded-circle p-3 bg-social" aria-hidden="true"></i>
+<i class="fa fa-instagram rounded-circle p-3 bg-social" aria-hidden="true"></i>
+</div>
+<div class="col-sm-4 p-3"><small><a href="#">Designed by divDesign</a></small></div>
+</div>
+</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+
+
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="assets/viewportchecker.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Custom JavaScript for this theme -->
+<script src="js/myjs.js"></script>
+<script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>

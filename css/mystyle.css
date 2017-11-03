@@ -1,0 +1,170 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+}
+
+section{
+    height: 100%;
+}
+
+h3{
+    color:#d87588;
+
+}
+
+#mainNav a{
+  margin-right:40px !important;
+
+}
+.printing-container1{
+position: relative;
+   padding-top:250px;
+    padding-right: 70px;
+    padding-left:100px;
+    height:100%;
+    color: #FFF;
+}
+.bg-light{
+  background-color:#c8c6c7 !important;
+}
+.bg-light1{
+  background-color: #f3f1f3;
+}
+bg-dark{
+  background-color: #161617 !important;
+}
+#ani1{
+     position: relative;
+    right: 100%;
+    width: 100%;
+  }
+#ani2{
+     position: relative;
+    left: 100%;
+    width: 100%;
+    padding: 20px;
+
+  }
+#home{
+background: url("..//img/banner1.jpg");
+ background-repeat:repeat;
+  background-position: center;
+ }
+.lg-icons{
+	background-color:#d87588;
+	font-size:3.5rem;
+	color:#0e1a36;
+}
+#mainNav {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#356aa0+0,202d56+0,0f132c+100 */
+
+background: #121f39; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #121f39 0%, #0e1a36 0%, #111f39 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #121f39 0%, #0e1a36 0%, #111f39 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #121f39 0%, #0e1a36 0%, #111f39 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+
+
+}
+.sec1{
+  background:-webkit-linear-gradient(top,  #00020d 30%,#030f1b 40%, #161e33 70%);
+
+ }
+.left{
+
+color: black;
+top:30px;
+
+text-align: left! important;
+}
+.right{
+
+color: black;
+top:30px;
+
+text-align: right! important;
+}
+.hidden{
+	opacity: 0;
+}
+
+.visible{
+	opacity: 1;
+}
+
+.btn-secondary{
+  background-color: #d2e5f4 !important;
+  color:black !important;
+}
+
+.btn-secondary:hover{
+  background-color: #a2a7ab !important;
+    text-decoration:none !important;
+}
+.btn-secondary:active{
+	background-color:	#d5a424 !important;
+  text-decoration:none;
+
+}
+#contact{
+  background: url("..//img/contact.jpg");
+  background-position: center;
+ background-repeat:no-repeat;
+ max-width: 100%;
+ color:white !important;
+}
+.pad{
+  padding-top:40px;
+}
+
+.filestyle{
+  color:white!important;
+
+}
+.nav-tabs .nav-link.active{
+  background-color: #0e1a36;
+color: #d87588;
+}.nav-tabs .nav-link{
+  color:grey;
+}
+
+.form-control-file{
+  margin-left: 550px;;
+
+}
+#myTabContent{
+  padding-top: 70px;
+}
+.subline{
+  padding-top: 20px;
+  font-size: 13px;
+}
+.form-group{
+  padding: 5px 30px 0 0;
+}
+.tooltip{
+  background-color: #000;
+  padding: 10px;
+}
+.modal-backdrop{
+  z-index: 2!important;
+}
+.card{
+border:none!important;
+
+}
+.display{
+  padding-left: 60px;
+}
+.tooltip{
+
+
+
+background-color: #fff;
+
+
+}
